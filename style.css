@@ -1,0 +1,53 @@
+body {
+    background: antiquewhite;
+}
+
+header,
+section {
+    width: 600px;
+    margin: auto;
+}
+
+
+header h1{
+    font-family: sans-serif;
+}
+
+#welcome-section{
+    height: 100vh;
+    font-size: 8vh;
+}
+
+#navbar {
+    display: flex;
+    background: black;
+    padding: 15px 0;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#navbar a {
+    color: white;
+    margin-right: 15px;
+
+}
+
+#projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-tile {
+    width: 250px;
+    margin-top: 20px;
+}
+
+@media all and (max-width: 600px) {
+    .project-tile {
+        width: 400px;
+        margin-top: 20px;
+    }
+}
